@@ -1,0 +1,305 @@
+model,benchmark,score,source,source_detail,shot,protocol,thinking,date
+DeepSeek-V3-Base,MMLU,87.1,official,"DeepSeek-V3 tech report arxiv:2412.19437, Tables 2-3 (base model)",5.0,5-shot,na,2024-12
+DeepSeek-V3-Base,MMLU_Pro,64.4,official,"DeepSeek-V3 tech report arxiv:2412.19437, Tables 2-3 (base model)",5.0,5-shot,na,2024-12
+DeepSeek-V3-Base,ARC_C,95.3,official,"DeepSeek-V3 tech report arxiv:2412.19437, Tables 2-3 (base model)",25.0,25-shot,na,2024-12
+DeepSeek-V3-Base,GSM8K,89.3,official,"DeepSeek-V3 tech report arxiv:2412.19437, Tables 2-3 (base model)",8.0,8-shot CoT,na,2024-12
+DeepSeek-V3-Base,MATH,61.6,official,"DeepSeek-V3 tech report arxiv:2412.19437, Tables 2-3 (base model)",4.0,4-shot CoT (MATH-Full),na,2024-12
+DeepSeek-V3-Base,HumanEval,65.2,official,"DeepSeek-V3 tech report arxiv:2412.19437, Tables 2-3 (base model)",0.0,0-shot Pass@1,na,2024-12
+DeepSeek-V3-Base,MBPP,75.4,official,"DeepSeek-V3 tech report arxiv:2412.19437, Tables 2-3 (base model)",3.0,3-shot Pass@1,na,2024-12
+DeepSeek-V3-Base,BBH,87.5,official,"DeepSeek-V3 tech report arxiv:2412.19437, Tables 2-3 (base model)",3.0,3-shot CoT,na,2024-12
+DeepSeek-V3,MMLU,88.5,official,"DeepSeek-V3 tech report arxiv:2412.19437, Table 5 (chat)",0.0,0-shot CoT (simple-evals style),na,2024-12
+DeepSeek-V3,MMLU_Pro,75.9,official,"DeepSeek-V3 tech report arxiv:2412.19437, Table 5 (chat)",5.0,5-shot CoT,na,2024-12
+DeepSeek-V3,GPQA_Diamond,59.1,official,"DeepSeek-V3 tech report arxiv:2412.19437, Table 5 (chat)",0.0,0-shot CoT,na,2024-12
+DeepSeek-V3,MATH,90.2,official,"DeepSeek-V3 tech report arxiv:2412.19437, Table 5 (chat)",0.0,0-shot CoT (MATH-500),na,2024-12
+DeepSeek-V3,AIME_2024,39.2,official,"DeepSeek-V3 tech report arxiv:2412.19437, Table 5 (chat)",0.0,Pass@1 (no thinking),na,2024-12
+DeepSeek-V3,HumanEval,82.6,official,"DeepSeek-V3 tech report arxiv:2412.19437, Table 5 (chat)",0.0,0-shot Pass@1 (HumanEval-Mul),na,2024-12
+DeepSeek-V3,LiveCodeBench,40.5,official,"DeepSeek-V3 tech report arxiv:2412.19437, Table 5 (chat)",0.0,0-shot CoT (2024-08–2024-11),na,2024-12
+DeepSeek-V3,IFEval,86.1,official,"DeepSeek-V3 tech report arxiv:2412.19437, Table 5 (chat)",0.0,0-shot,na,2024-12
+DeepSeek-R1,MMLU,90.8,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",0.0,0-shot CoT,on,2025-01
+DeepSeek-R1,MMLU_Pro,84.0,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",0.0,0-shot CoT,on,2025-01
+DeepSeek-R1,GPQA_Diamond,71.5,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",0.0,"0-shot CoT, Pass@1",on,2025-01
+DeepSeek-R1,MATH,97.3,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",0.0,0-shot CoT (MATH-500),on,2025-01
+DeepSeek-R1,AIME_2024,79.8,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",0.0,"Pass@1, thinking on",on,2025-01
+DeepSeek-R1,HumanEval,96.3,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",0.0,0-shot Pass@1 (HumanEval-Mul),on,2025-01
+DeepSeek-R1,MBPP,84.6,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",3.0,3-shot Pass@1,on,2025-01
+DeepSeek-R1,LiveCodeBench,65.9,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",0.0,0-shot CoT (2024-08–2025-01),on,2025-01
+DeepSeek-R1,IFEval,83.3,official,"DeepSeek-R1 paper arxiv:2501.12948, Tables 3-4",0.0,0-shot,on,2025-01
+DeepSeek-R1-0528,AIME_2024,91.4,official,DeepSeek-R1-0528 HF model card (May 2025),0.0,Pass@1 with thinking,on,2025-05
+DeepSeek-R1-0528,MATH,97.3,official,DeepSeek-R1-0528 HF model card (May 2025),0.0,MATH-500 Pass@1,on,2025-05
+DeepSeek-R1-0528,MMLU_Pro,85.0,aggregator,Artificial Analysis Intelligence Index measurement May 2025 (composite),0.0,0-shot CoT,on,2025-05
+DeepSeek-R1-0528,GPQA_Diamond,73.0,aggregator,Artificial Analysis Intelligence Index measurement May 2025 (composite),0.0,0-shot CoT,on,2025-05
+DeepSeek-R1-0528,LiveCodeBench,68.0,aggregator,Artificial Analysis Intelligence Index measurement May 2025 (composite),0.0,2024-08–2025-05,on,2025-05
+DeepSeek-R1-0528,IFEval,85.0,aggregator,Artificial Analysis Intelligence Index measurement May 2025 (composite),0.0,0-shot,on,2025-05
+o1-1217,MMLU,91.8,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-1217,MMLU_Pro,84.6,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-1217,GPQA_Diamond,75.7,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-1217,MATH,96.4,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-1217,AIME_2024,79.2,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-1217,HumanEval,95.4,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-1217,LiveCodeBench,63.4,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-mini,MMLU,85.2,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-mini,MMLU_Pro,80.3,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-mini,GPQA_Diamond,60.0,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-mini,MATH,90.0,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-mini,AIME_2024,63.6,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-mini,HumanEval,92.4,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+o1-mini,LiveCodeBench,53.8,cross_report,DeepSeek-R1 paper arxiv:2501.12948 Table 4 (cross-reported baselines),0.0,0-shot CoT,on,2024-12
+GPT-4o,MMLU,87.2,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-report),0.0,0-shot CoT,off,2024-08
+GPT-4o,MMLU_Pro,72.6,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-report),0.0,0-shot CoT,off,2024-08
+GPT-4o,GPQA_Diamond,49.9,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-report),0.0,0-shot CoT,off,2024-08
+GPT-4o,MATH,76.6,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-report),0.0,0-shot CoT,off,2024-08
+GPT-4o,AIME_2024,9.3,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-report),0.0,0-shot CoT,off,2024-08
+GPT-4o,HumanEval,80.5,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-report),0.0,0-shot CoT,off,2024-08
+GPT-4o,LiveCodeBench,33.4,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-report),0.0,0-shot CoT,off,2024-08
+GPT-4o,IFEval,84.3,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-report),0.0,0-shot CoT,off,2024-08
+Claude-3.5-Sonnet,MMLU,88.3,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-reported Anthropic baseline),0.0,0-shot CoT,off,2024-10
+Claude-3.5-Sonnet,MMLU_Pro,78.0,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-reported Anthropic baseline),0.0,0-shot CoT,off,2024-10
+Claude-3.5-Sonnet,GPQA_Diamond,65.0,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-reported Anthropic baseline),0.0,0-shot CoT,off,2024-10
+Claude-3.5-Sonnet,MATH,78.3,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-reported Anthropic baseline),0.0,0-shot CoT,off,2024-10
+Claude-3.5-Sonnet,AIME_2024,16.0,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-reported Anthropic baseline),0.0,0-shot CoT,off,2024-10
+Claude-3.5-Sonnet,HumanEval,93.7,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-reported Anthropic baseline),0.0,0-shot CoT,off,2024-10
+Claude-3.5-Sonnet,LiveCodeBench,37.6,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-reported Anthropic baseline),0.0,0-shot CoT,off,2024-10
+Claude-3.5-Sonnet,IFEval,86.5,cross_report,DeepSeek-V3 tech report arxiv:2412.19437 Table 5 (cross-reported Anthropic baseline),0.0,0-shot CoT,off,2024-10
+Qwen3-235B-A22B-Base,MMLU,88.94,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-235B-A22B-Base,MMLU_Pro,61.18,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-235B-A22B-Base,GSM8K,94.39,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-235B-A22B-Base,MATH,71.84,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-235B-A22B-Base,MBPP,81.4,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-235B-A22B-Base,BBH,88.0,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-32B-Base,MMLU,83.32,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-32B-Base,MMLU_Pro,55.1,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-32B-Base,GSM8K,92.87,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-32B-Base,MATH,57.7,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-32B-Base,MBPP,73.6,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-32B-Base,BBH,84.48,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-30B-A3B-Base,MMLU,81.38,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-30B-A3B-Base,MMLU_Pro,61.49,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-30B-A3B-Base,GSM8K,91.81,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-30B-A3B-Base,MATH,59.04,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-30B-A3B-Base,MBPP,74.4,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-30B-A3B-Base,BBH,81.54,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-14B-Base,MMLU,81.05,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-14B-Base,MMLU_Pro,61.03,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-14B-Base,GSM8K,92.49,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-14B-Base,MATH,62.02,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-14B-Base,MBPP,73.4,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-14B-Base,BBH,81.07,official,"Qwen3 tech report arxiv:2505.09388 Tables 3-5 (base, pre-trained)",5.0,5-shot (base),na,2025-05
+Qwen3-235B-A22B-Thinking,AIME_2024,85.7,official,Qwen3 tech report arxiv:2505.09388 Table 11 (post-trained thinking),0.0,Pass@1 thinking,on,2025-05
+Qwen3-235B-A22B-Thinking,GPQA_Diamond,71.1,official,Qwen3 tech report arxiv:2505.09388 Table 11 (post-trained thinking),0.0,Pass@1 thinking,on,2025-05
+Qwen3-235B-A22B-Thinking,LiveCodeBench,70.7,official,Qwen3 tech report arxiv:2505.09388 Table 11 (post-trained thinking),0.0,Pass@1 thinking,on,2025-05
+Qwen3-235B-A22B-Thinking,MMLU_Pro,75.0,official,Qwen3 tech report arxiv:2505.09388 Table 11 (post-trained thinking),0.0,Pass@1 thinking,on,2025-05
+Llama-4-Maverick,MMLU,85.5,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Maverick,MMLU_Pro,80.5,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Maverick,GPQA_Diamond,69.8,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Maverick,MATH,61.2,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Maverick,HumanEval,82.4,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Maverick,MBPP,77.6,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Maverick,LiveCodeBench,43.4,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Scout,MMLU,79.6,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Scout,MMLU_Pro,74.3,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Scout,GPQA_Diamond,57.2,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Scout,MATH,50.3,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Scout,HumanEval,74.1,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Scout,MBPP,67.8,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Llama-4-Scout,LiveCodeBench,32.8,official,Meta Llama 4 model card (April 2025),0.0,0-shot,off,2025-04
+Gemma-3-27B-Base,MMLU,78.6,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-27B-Base,MMLU_Pro,52.2,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-27B-Base,ARC_C,78.3,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-27B-Base,GPQA_Diamond,24.3,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-27B-Base,GSM8K,82.6,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-27B-Base,MATH,50.0,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-27B-Base,HumanEval,48.8,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-27B-Base,MBPP,65.6,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-12B-Base,MMLU,74.5,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-12B-Base,MMLU_Pro,45.3,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-12B-Base,ARC_C,74.0,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-12B-Base,GPQA_Diamond,25.4,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-12B-Base,GSM8K,71.0,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-12B-Base,MATH,43.3,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-12B-Base,HumanEval,45.7,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-12B-Base,MBPP,60.4,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-4B-Base,MMLU,59.6,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-4B-Base,MMLU_Pro,29.2,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-4B-Base,ARC_C,56.2,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-4B-Base,GPQA_Diamond,15.0,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-4B-Base,GSM8K,38.4,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-4B-Base,MATH,24.2,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-4B-Base,HumanEval,36.0,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-4B-Base,MBPP,46.0,official,"Gemma 3 tech report arxiv:2503.19786 Tables 10+19 (base, pre-trained)",5.0,5-shot (base),na,2025-03
+Gemma-3-27B-IT,MMLU,76.9,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Gemma-3-27B-IT,MMLU_Pro,67.5,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Gemma-3-27B-IT,GPQA_Diamond,42.4,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Gemma-3-27B-IT,GSM8K,95.9,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Gemma-3-27B-IT,MATH,89.0,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Gemma-3-27B-IT,HumanEval,87.8,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Gemma-3-27B-IT,MBPP,74.4,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Gemma-3-27B-IT,BBH,87.6,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Gemma-3-27B-IT,IFEval,90.4,official,Gemma 3 tech report arxiv:2503.19786 Table 6 (instruction-tuned),0.0,0-shot CoT,off,2025-03
+Mistral-Small-3,MMLU,81.0,official,Mistral Small 3 release blog https://mistral.ai/news/mistral-small-3 (Jan 2025),0.0,0-shot CoT,off,2025-01
+Mistral-Small-3,MMLU_Pro,66.3,official,Mistral Small 3 release blog https://mistral.ai/news/mistral-small-3 (Jan 2025),0.0,0-shot CoT,off,2025-01
+Mistral-Small-3,GPQA_Diamond,45.3,official,Mistral Small 3 release blog https://mistral.ai/news/mistral-small-3 (Jan 2025),0.0,0-shot CoT,off,2025-01
+Mistral-Small-3,GSM8K,80.0,official,Mistral Small 3 release blog https://mistral.ai/news/mistral-small-3 (Jan 2025),0.0,0-shot CoT,off,2025-01
+Mistral-Small-3,MATH,70.6,official,Mistral Small 3 release blog https://mistral.ai/news/mistral-small-3 (Jan 2025),0.0,0-shot CoT,off,2025-01
+Mistral-Small-3,HumanEval,84.8,official,Mistral Small 3 release blog https://mistral.ai/news/mistral-small-3 (Jan 2025),0.0,0-shot CoT,off,2025-01
+Mistral-Small-3,MBPP,72.0,official,Mistral Small 3 release blog https://mistral.ai/news/mistral-small-3 (Jan 2025),0.0,0-shot CoT,off,2025-01
+Mistral-Small-3,IFEval,82.0,official,Mistral Small 3 release blog https://mistral.ai/news/mistral-small-3 (Jan 2025),0.0,0-shot CoT,off,2025-01
+Phi-4,MMLU,84.8,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4,MMLU_Pro,70.4,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4,GPQA_Diamond,56.1,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4,GSM8K,96.0,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4,MATH,80.4,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4,HumanEval,82.6,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4,MBPP,80.0,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4,BBH,79.1,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4,IFEval,63.0,official,MSR Phi-4 technical report (Dec 2024),0.0,0-shot CoT,off,2024-12
+Phi-4-mini,MMLU,67.3,official,MSR Phi-4-mini card (Feb 2025),0.0,0-shot CoT,off,2025-02
+Phi-4-mini,MMLU_Pro,52.8,official,MSR Phi-4-mini card (Feb 2025),0.0,0-shot CoT,off,2025-02
+Phi-4-mini,GPQA_Diamond,36.9,official,MSR Phi-4-mini card (Feb 2025),0.0,0-shot CoT,off,2025-02
+Phi-4-mini,GSM8K,88.6,official,MSR Phi-4-mini card (Feb 2025),0.0,0-shot CoT,off,2025-02
+Phi-4-mini,MATH,64.0,official,MSR Phi-4-mini card (Feb 2025),0.0,0-shot CoT,off,2025-02
+Phi-4-mini,HumanEval,74.4,official,MSR Phi-4-mini card (Feb 2025),0.0,0-shot CoT,off,2025-02
+Phi-4-mini,MBPP,65.3,official,MSR Phi-4-mini card (Feb 2025),0.0,0-shot CoT,off,2025-02
+Phi-4-mini,IFEval,74.7,official,MSR Phi-4-mini card (Feb 2025),0.0,0-shot CoT,off,2025-02
+Claude-3.7-Sonnet,MMLU,86.1,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking mode varies,on,2025-02
+Claude-3.7-Sonnet,MMLU_Pro,80.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking mode varies,on,2025-02
+Claude-3.7-Sonnet,GPQA_Diamond,84.8,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking mode varies,on,2025-02
+Claude-3.7-Sonnet,MATH,82.2,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking mode varies,on,2025-02
+Claude-3.7-Sonnet,AIME_2024,23.3,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking mode varies,on,2025-02
+Claude-3.7-Sonnet,HumanEval,92.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking mode varies,on,2025-02
+Claude-3.7-Sonnet,LiveCodeBench,39.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking mode varies,on,2025-02
+Claude-3.7-Sonnet,IFEval,90.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking mode varies,on,2025-02
+Claude-Sonnet-4,MMLU,89.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Sonnet-4,MMLU_Pro,84.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Sonnet-4,GPQA_Diamond,75.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Sonnet-4,MATH,88.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Sonnet-4,AIME_2024,33.1,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Sonnet-4,HumanEval,94.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Sonnet-4,LiveCodeBench,50.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Sonnet-4,IFEval,91.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Opus-4,MMLU,91.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Opus-4,MMLU_Pro,86.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Opus-4,GPQA_Diamond,79.6,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Opus-4,MATH,91.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Opus-4,AIME_2024,48.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Opus-4,HumanEval,95.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Opus-4,LiveCodeBench,56.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Claude-Opus-4,IFEval,92.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking on,on,2025-05
+Gemini-2.5-Pro,MMLU,91.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking-capable,on,2025-04
+Gemini-2.5-Pro,MMLU_Pro,86.2,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking-capable,on,2025-04
+Gemini-2.5-Pro,GPQA_Diamond,84.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking-capable,on,2025-04
+Gemini-2.5-Pro,MATH,89.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking-capable,on,2025-04
+Gemini-2.5-Pro,AIME_2024,86.7,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking-capable,on,2025-04
+Gemini-2.5-Pro,HumanEval,93.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking-capable,on,2025-04
+Gemini-2.5-Pro,LiveCodeBench,70.4,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking-capable,on,2025-04
+Gemini-2.5-Pro,IFEval,88.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,thinking-capable,on,2025-04
+GPT-4.5,MMLU,90.8,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,0-shot CoT,off,2025-02
+GPT-4.5,MMLU_Pro,81.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,0-shot CoT,off,2025-02
+GPT-4.5,GPQA_Diamond,71.4,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,0-shot CoT,off,2025-02
+GPT-4.5,MATH,83.9,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,0-shot CoT,off,2025-02
+GPT-4.5,AIME_2024,36.7,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,0-shot CoT,off,2025-02
+GPT-4.5,HumanEval,90.2,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,0-shot CoT,off,2025-02
+GPT-4.5,LiveCodeBench,38.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,0-shot CoT,off,2025-02
+GPT-4.5,IFEval,88.5,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,0-shot CoT,off,2025-02
+o3,MMLU,92.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,reasoning effort high,on,2025-04
+o3,MMLU_Pro,85.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,reasoning effort high,on,2025-04
+o3,GPQA_Diamond,87.7,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,reasoning effort high,on,2025-04
+o3,MATH,95.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,reasoning effort high,on,2025-04
+o3,AIME_2024,91.6,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,reasoning effort high,on,2025-04
+o3,HumanEval,96.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,reasoning effort high,on,2025-04
+o3,LiveCodeBench,75.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,reasoning effort high,on,2025-04
+o3,IFEval,91.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,reasoning effort high,on,2025-04
+o3-mini,MMLU,86.9,official,OpenAI o3-mini system card + simple-evals (Jan 2025),0.0,reasoning effort high,on,2025-01
+o3-mini,MMLU_Pro,79.0,official,OpenAI o3-mini system card + simple-evals (Jan 2025),0.0,reasoning effort high,on,2025-01
+o3-mini,GPQA_Diamond,79.7,official,OpenAI o3-mini system card + simple-evals (Jan 2025),0.0,reasoning effort high,on,2025-01
+o3-mini,MATH,97.3,official,OpenAI o3-mini system card + simple-evals (Jan 2025),0.0,reasoning effort high,on,2025-01
+o3-mini,AIME_2024,87.3,official,OpenAI o3-mini system card + simple-evals (Jan 2025),0.0,reasoning effort high,on,2025-01
+o3-mini,HumanEval,92.0,official,OpenAI o3-mini system card + simple-evals (Jan 2025),0.0,reasoning effort high,on,2025-01
+o3-mini,LiveCodeBench,67.0,official,OpenAI o3-mini system card + simple-evals (Jan 2025),0.0,reasoning effort high,on,2025-01
+o3-mini,IFEval,88.0,official,OpenAI o3-mini system card + simple-evals (Jan 2025),0.0,reasoning effort high,on,2025-01
+GPT-5,MMLU,92.5,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,high reasoning effort,on,2025-08
+GPT-5,MMLU_Pro,87.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,high reasoning effort,on,2025-08
+GPT-5,GPQA_Diamond,89.4,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,high reasoning effort,on,2025-08
+GPT-5,MATH,95.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,high reasoning effort,on,2025-08
+GPT-5,AIME_2024,94.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,high reasoning effort,on,2025-08
+GPT-5,HumanEval,96.5,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,high reasoning effort,on,2025-08
+GPT-5,LiveCodeBench,78.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,high reasoning effort,on,2025-08
+GPT-5,IFEval,93.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,high reasoning effort,on,2025-08
+Grok-4,MMLU,88.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,Heavy mode varies,on,2025-07
+Grok-4,MMLU_Pro,84.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,Heavy mode varies,on,2025-07
+Grok-4,GPQA_Diamond,87.5,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,Heavy mode varies,on,2025-07
+Grok-4,MATH,91.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,Heavy mode varies,on,2025-07
+Grok-4,AIME_2024,95.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,Heavy mode varies,on,2025-07
+Grok-4,HumanEval,92.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,Heavy mode varies,on,2025-07
+Grok-4,LiveCodeBench,65.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,Heavy mode varies,on,2025-07
+Grok-4,IFEval,88.0,aggregator,"Artificial Analysis Intelligence Index (composite, retrieved Apr-Aug 2025)",0.0,Heavy mode varies,on,2025-07
+Llama-2-7B,MMLU,45.3,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-7B,ARC_C,53.0,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-7B,GSM8K,14.6,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-7B,HumanEval,12.8,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-7B,MBPP,20.8,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-7B,MATH,2.5,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-70B,MMLU,68.9,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288. 70B uses GQA.",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-70B,ARC_C,67.3,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288. 70B uses GQA.",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-70B,GSM8K,56.8,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288. 70B uses GQA.",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-70B,HumanEval,29.9,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288. 70B uses GQA.",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-70B,MBPP,38.0,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288. 70B uses GQA.",,legacy (see v8),na,2024 (v8 capture)
+Llama-2-70B,MATH,13.5,official,"Meta Llama 2 paper Table 3-5, arxiv:2307.09288. 70B uses GQA.",,legacy (see v8),na,2024 (v8 capture)
+Mistral-7B,MMLU,62.5,leaderboard,HF Open LLM Leaderboard v1; Jiang et al. 2023 arxiv:2310.06825,,legacy (see v8),na,2024 (v8 capture)
+Mistral-7B,ARC_C,59.5,leaderboard,HF Open LLM Leaderboard v1; Jiang et al. 2023 arxiv:2310.06825,,legacy (see v8),na,2024 (v8 capture)
+Mistral-7B,GSM8K,35.4,leaderboard,HF Open LLM Leaderboard v1; Jiang et al. 2023 arxiv:2310.06825,,legacy (see v8),na,2024 (v8 capture)
+Mistral-7B,HumanEval,26.8,leaderboard,HF Open LLM Leaderboard v1; Jiang et al. 2023 arxiv:2310.06825,,legacy (see v8),na,2024 (v8 capture)
+Mistral-7B,MBPP,38.6,leaderboard,HF Open LLM Leaderboard v1; Jiang et al. 2023 arxiv:2310.06825,,legacy (see v8),na,2024 (v8 capture)
+Mistral-7B,MATH,9.1,leaderboard,HF Open LLM Leaderboard v1; Jiang et al. 2023 arxiv:2310.06825,,legacy (see v8),na,2024 (v8 capture)
+Mixtral-8x7B,MMLU,70.6,official,"Mistral AI Mixtral blog post Dec 2023; HF model card. 46.7B total, 12.9B active.",,legacy (see v8),na,2024 (v8 capture)
+Mixtral-8x7B,ARC_C,65.7,official,"Mistral AI Mixtral blog post Dec 2023; HF model card. 46.7B total, 12.9B active.",,legacy (see v8),na,2024 (v8 capture)
+Mixtral-8x7B,GSM8K,58.4,official,"Mistral AI Mixtral blog post Dec 2023; HF model card. 46.7B total, 12.9B active.",,legacy (see v8),na,2024 (v8 capture)
+Mixtral-8x7B,HumanEval,40.2,official,"Mistral AI Mixtral blog post Dec 2023; HF model card. 46.7B total, 12.9B active.",,legacy (see v8),na,2024 (v8 capture)
+Mixtral-8x7B,MBPP,48.0,official,"Mistral AI Mixtral blog post Dec 2023; HF model card. 46.7B total, 12.9B active.",,legacy (see v8),na,2024 (v8 capture)
+Mixtral-8x7B,MATH,22.7,official,"Mistral AI Mixtral blog post Dec 2023; HF model card. 46.7B total, 12.9B active.",,legacy (see v8),na,2024 (v8 capture)
+Phi-2,MMLU,56.7,official,Microsoft Research blog Dec 2023; synthetic textbook data,,legacy (see v8),na,2024 (v8 capture)
+Phi-2,ARC_C,59.3,official,Microsoft Research blog Dec 2023; synthetic textbook data,,legacy (see v8),na,2024 (v8 capture)
+Phi-2,GSM8K,54.8,official,Microsoft Research blog Dec 2023; synthetic textbook data,,legacy (see v8),na,2024 (v8 capture)
+Phi-2,HumanEval,47.6,official,Microsoft Research blog Dec 2023; synthetic textbook data,,legacy (see v8),na,2024 (v8 capture)
+Phi-2,MBPP,48.0,official,Microsoft Research blog Dec 2023; synthetic textbook data,,legacy (see v8),na,2024 (v8 capture)
+Phi-2,MATH,14.0,official,Microsoft Research blog Dec 2023; synthetic textbook data,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-8B,MMLU,65.2,official,Meta Llama 3.1 eval_details.md on GitHub; 5-shot MMLU=65.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-8B,ARC_C,55.0,official,Meta Llama 3.1 eval_details.md on GitHub; 5-shot MMLU=65.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-8B,GSM8K,50.0,official,Meta Llama 3.1 eval_details.md on GitHub; 5-shot MMLU=65.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-8B,HumanEval,32.3,official,Meta Llama 3.1 eval_details.md on GitHub; 5-shot MMLU=65.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-8B,MBPP,40.0,official,Meta Llama 3.1 eval_details.md on GitHub; 5-shot MMLU=65.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-8B,MATH,15.8,official,Meta Llama 3.1 eval_details.md on GitHub; 5-shot MMLU=65.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-70B,MMLU,79.3,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=79.3,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-70B,ARC_C,68.8,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=79.3,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-70B,GSM8K,76.0,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=79.3,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-70B,HumanEval,60.4,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=79.3,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-70B,MBPP,60.0,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=79.3,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-70B,MATH,30.0,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=79.3,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-405B,MMLU,85.2,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=85.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-405B,ARC_C,75.0,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=85.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-405B,GSM8K,84.0,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=85.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-405B,HumanEval,61.0,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=85.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-405B,MBPP,66.0,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=85.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.1-405B,MATH,37.5,official,Meta Llama 3.1 eval_details.md; 5-shot MMLU=85.2,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.3-70B,MMLU,86.0,official,Meta Llama 3.3 blog Dec 2024; instruct-tuned 70B,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.3-70B,ARC_C,93.0,official,Meta Llama 3.3 blog Dec 2024; instruct-tuned 70B,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.3-70B,GSM8K,95.0,official,Meta Llama 3.3 blog Dec 2024; instruct-tuned 70B,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.3-70B,HumanEval,88.0,official,Meta Llama 3.3 blog Dec 2024; instruct-tuned 70B,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.3-70B,MBPP,82.0,official,Meta Llama 3.3 blog Dec 2024; instruct-tuned 70B,,legacy (see v8),na,2024 (v8 capture)
+Llama-3.3-70B,MATH,68.0,official,Meta Llama 3.3 blog Dec 2024; instruct-tuned 70B,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-7B,MMLU,74.2,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-7B,ARC_C,63.0,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-7B,GSM8K,82.0,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-7B,HumanEval,57.3,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-7B,MBPP,62.0,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-7B,MATH,55.2,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-72B,MMLU,85.3,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-72B,ARC_C,78.0,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-72B,GSM8K,91.0,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-72B,HumanEval,65.9,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-72B,MBPP,72.0,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Qwen2.5-72B,MATH,71.9,official,Qwen2.5 blog post + HF model card,,legacy (see v8),na,2024 (v8 capture)
+Phi-4,ARC_C,74.0,official,"MS Research Phi-4 blog Dec 2024; 9.8T tokens, heavy synthetic",,legacy (see v8),na,2024 (v8 capture)
+GPT-4o,ARC_C,96.7,simple_evals,OpenAI simple-evals May 2024; multimodal variant of GPT-4,,legacy (see v8),na,2024 (v8 capture)
+GPT-4o,MBPP,87.0,simple_evals,OpenAI simple-evals May 2024; multimodal variant of GPT-4,,legacy (see v8),na,2024 (v8 capture)
+Claude-3.5-Sonnet,ARC_C,96.7,simple_evals,OpenAI simple-evals + Anthropic model card Jun 2024,,legacy (see v8),na,2024 (v8 capture)
+Claude-3.5-Sonnet,MBPP,88.2,simple_evals,OpenAI simple-evals + Anthropic model card Jun 2024,,legacy (see v8),na,2024 (v8 capture)

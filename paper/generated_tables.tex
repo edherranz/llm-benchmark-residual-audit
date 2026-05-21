@@ -1,0 +1,199 @@
+
+% Auto-generated from outputs/*.csv. Do not edit manually.
+\newcommand{\CanonicalCells}{250}
+\newcommand{\CanonicalModels}{41}
+\newcommand{\CanonicalFamilies}{13}
+\newcommand{\CanonicalBenchmarks}{12}
+\newcommand{\CanonicalMAE}{9.28}
+\newcommand{\CanonicalRMSE}{12.69}
+\newcommand{\CanonicalBias}{-1.78}
+\newcommand{\CanonicalRTwo}{0.64}
+\newcommand{\CalibrationSlope}{0.89}
+\newcommand{\TemporalMAE}{13.67}
+\newcommand{\LOBOMAE}{12.76}
+\newcommand{\CoveragePct}{50.8}
+\newcommand{\StressMAELow}{8.87}
+\newcommand{\StressMAEHigh}{9.87}
+\newcommand{\BootstrapFullMAELow}{8.25}
+\newcommand{\BootstrapFullMAEHigh}{10.37}
+\newcommand{\BootstrapImprovementLow}{3.60}
+\newcommand{\BootstrapImprovementHigh}{6.27}
+\newcommand{\RecipeSensitivityLow}{9.20}
+\newcommand{\RecipeSensitivityHigh}{12.30}
+\newcommand{\AblationTable}{%
+\begin{tabular}{lrrrrrl}\toprule
+Specification & cells & families & scored & MAE & fold sd & status \\
+\midrule
+Scale & 250 & 13 & 250 & 14.14 & 3.55 & ok \\
+Scale+Arch & 250 & 13 & 250 & 14.82 & 3.29 & ok \\
+Scale+Recipe & 250 & 13 & 250 & 11.10 & 2.91 & ok \\
+Full & 250 & 13 & 250 & 9.28 & 0.88 & ok \\
+\bottomrule\end{tabular}}
+\newcommand{\ResidualSummaryTable}{%
+\begin{tabular}{lr}\toprule
+Diagnostic & Value \\
+\midrule
+Cells & 250 \\
+Weighted MAE & 9.28 pp \\
+Weighted RMSE & 12.69 pp \\
+Weighted bias & -1.78 pp \\
+Weighted $R^2$ & 0.64 \\
+Calibration slope & 0.89 \\
+Calibration intercept & 5.64 \\
+\bottomrule\end{tabular}}
+\newcommand{\ValidationTable}{%
+\begin{tabular}{lrrrrrrrr}\toprule
+Validation & cells & models & families & benchmarks & MAE & RMSE & bias & $R^2$ \\
+\midrule
+family-grouped-CV & 250 & 41 & 13 & 12 & 9.28 & 12.69 & -1.78 & 0.64 \\
+leave-one-family-out & 250 & 41 & 13 & 12 & 8.72 & 11.54 & -1.46 & 0.70 \\
+leave-one-benchmark-out & 250 & 41 & 13 & 12 & 12.76 & 17.09 & 1.36 & 0.34 \\
+temporal-holdout & 147 & 26 & 9 & 12 & 13.67 & 18.21 & -7.57 & -0.02 \\
+\bottomrule\end{tabular}}
+\newcommand{\BenchmarkResidualTable}{%
+\begin{tabular}{lrrrrrr}\toprule
+Benchmark & cells & models & MAE & RMSE & bias & p90 AE \\
+\midrule
+AIME\_2024 & 9 & 9 & 24.74 & 32.63 & -6.40 & 55.62 \\
+GPQA\_Diamond & 25 & 25 & 12.53 & 14.78 & 2.03 & 20.90 \\
+MATH & 33 & 33 & 12.10 & 14.02 & -4.40 & 19.79 \\
+LiveCodeBench & 16 & 16 & 11.05 & 13.64 & 2.39 & 20.85 \\
+ARC\_C & 18 & 18 & 10.49 & 13.22 & -4.54 & 21.62 \\
+HumanEval & 28 & 28 & 8.81 & 11.34 & -2.98 & 19.74 \\
+GSM8K & 23 & 23 & 7.98 & 12.32 & -4.81 & 22.68 \\
+MMLU\_Pro & 22 & 22 & 7.46 & 9.35 & -0.80 & 15.15 \\
+MBPP & 28 & 28 & 6.89 & 7.81 & -1.26 & 11.26 \\
+IFEval & 9 & 9 & 6.68 & 8.63 & 2.06 & 11.73 \\
+MMLU & 32 & 32 & 5.47 & 7.09 & -0.50 & 12.01 \\
+BBH & 7 & 7 & 1.17 & 1.47 & -0.08 & 2.09 \\
+\bottomrule\end{tabular}}
+\newcommand{\FamilyResidualTable}{%
+\begin{tabular}{lrrrrr}\toprule
+Family & cells & models & MAE & bias & p90 AE \\
+\midrule
+GPT4 & 10 & 1 & 15.18 & -14.54 & 28.71 \\
+Gemini & 6 & 4 & 15.17 & 11.51 & 19.73 \\
+Llama3 & 24 & 4 & 12.21 & -11.63 & 26.29 \\
+Gemma & 33 & 4 & 11.75 & -10.10 & 22.26 \\
+Llama4 & 14 & 2 & 11.42 & 4.22 & 20.59 \\
+Llama2 & 12 & 2 & 9.44 & 5.99 & 19.23 \\
+Mistral & 20 & 3 & 8.98 & 2.71 & 17.89 \\
+OpenAI\_o & 24 & 4 & 8.62 & 8.52 & 19.19 \\
+Claude & 14 & 3 & 8.29 & -5.55 & 20.70 \\
+Phi & 24 & 3 & 8.09 & 3.28 & 16.53 \\
+\bottomrule\end{tabular}}
+\newcommand{\SourceResidualTable}{%
+\begin{tabular}{lrrrrr}\toprule
+Source & cells & models & MAE & bias & p90 AE \\
+\midrule
+leaderboard & 6 & 1 & 9.66 & -4.27 & 18.48 \\
+cross\_report & 38 & 8 & 9.50 & -3.27 & 18.99 \\
+official & 202 & 33 & 9.33 & -1.54 & 20.33 \\
+simple\_evals & 4 & 2 & 3.53 & 1.48 & 5.43 \\
+\bottomrule\end{tabular}}
+\newcommand{\OutlierTable}{%
+\begin{tabular}{llrrrl}\toprule
+Model & Benchmark & observed & predicted & residual & source \\
+\midrule
+GPT-4o & AIME\_2024 & 9.3 & 76.4 & -67.1 & cross\_report \\
+Claude-3.5-Sonnet & AIME\_2024 & 16.0 & 68.8 & -52.8 & cross\_report \\
+Gemma-3-4B-Base & GSM8K & 38.4 & 77.6 & -39.2 & official \\
+o3-mini & AIME\_2024 & 87.3 & 48.3 & 39.0 & official \\
+Llama-3.1-405B & MATH & 37.5 & 67.9 & -30.4 & official \\
+DeepSeek-V3 & AIME\_2024 & 39.2 & 68.1 & -28.9 & official \\
+Llama-3.1-8B & GSM8K & 50.0 & 76.6 & -26.6 & official \\
+Llama-3.1-70B & MATH & 30.0 & 56.3 & -26.3 & official \\
+Llama-3.1-8B & ARC\_C & 55.0 & 81.3 & -26.3 & official \\
+Llama-3.1-8B & MATH & 15.8 & 41.3 & -25.5 & official \\
+o3-mini & GPQA\_Diamond & 79.7 & 54.3 & 25.4 & official \\
+Mistral-7B & GSM8K & 35.4 & 60.7 & -25.3 & leaderboard \\
+GPT-4o & GPQA\_Diamond & 49.9 & 74.3 & -24.4 & cross\_report \\
+Llama-2-7B & ARC\_C & 53.0 & 28.6 & 24.4 & official \\
+Gemma-3-4B-Base & HumanEval & 36.0 & 60.2 & -24.2 & official \\
+\bottomrule\end{tabular}}
+\newcommand{\SensitivityTable}{%
+\begin{tabular}{llllrrrl}\toprule
+Source policy & scale & target & estimator & cells & families & MAE & status \\
+\midrule
+official\_only & continuous & logit & ridge & 202 & 11 & 8.35 & ok \\
+official\_only & bucket & logit & ridge & 202 & 11 & 8.36 & ok \\
+official\_like & bucket & logit & ridge & 250 & 13 & 8.58 & ok \\
+full & bucket & logit & ridge & 308 & 14 & 8.82 & ok \\
+full & continuous & logit & ridge & 308 & 14 & 9.16 & ok \\
+official\_like & continuous & logit & ridge & 250 & 13 & 9.28 & ok \\
+official\_like & continuous & raw & ridge & 250 & 13 & 10.14 & ok \\
+\bottomrule\end{tabular}}
+\newcommand{\CoefficientTable}{%
+\begin{tabular}{llr}\toprule
+Feature & group & standardized coefficient \\
+\midrule
+math\_intensity & training/recipe & 0.540 \\
+bench\_LiveCodeBench & benchmark fixed effects & -0.397 \\
+log\_active\_params & scale/capacity & 0.389 \\
+release\_year\_norm & training/recipe & 0.321 \\
+math\_intensity\_x\_outputspace & recipe x benchmark interactions & -0.309 \\
+log\_context & architecture/context & -0.300 \\
+contamination\_resistant & benchmark metadata & -0.297 \\
+output\_space & benchmark metadata & 0.293 \\
+is\_instruct & training/recipe & 0.258 \\
+bench\_GSM8K & benchmark fixed effects & 0.246 \\
+is\_reasoning\_model\_x\_outputspace & recipe x benchmark interactions & -0.242 \\
+is\_reasoning\_model & training/recipe & 0.227 \\
+thinking\_on\_cell & measurement/protocol & 0.227 \\
+retained\_v22 & benchmark metadata & 0.203 \\
+bench\_MMLU & benchmark fixed effects & 0.198 \\
+synthetic\_quality\_x\_outputspace & recipe x benchmark interactions & -0.195 \\
+bench\_MATH & benchmark fixed effects & -0.186 \\
+bench\_BBH & benchmark fixed effects & 0.167 \\
+n\_choices & benchmark metadata & 0.163 \\
+bench\_ARC\_C & benchmark fixed effects & 0.160 \\
+\bottomrule\end{tabular}}
+\newcommand{\MissingSummaryTable}{%
+\begin{tabular}{lr}\toprule
+Diagnostic & Value \\
+\midrule
+Possible model-benchmark cells & 492 \\
+Observed canonical cells & 250 \\
+Coverage & 50.8\% \\
+Descriptive missingness AUC & 0.76 \\
+\bottomrule\end{tabular}}
+\newcommand{\StressTable}{%
+\begin{tabular}{lr}\toprule
+Diagnostic & Value \\
+\midrule
+Iterations & 60 \\
+Mean MAE & 9.36 pp \\
+MAE standard deviation & 0.34 pp \\
+5th--95th percentile MAE & 8.87--9.87 pp \\
+\bottomrule\end{tabular}}
+\newcommand{\BootstrapTable}{%
+\begin{tabular}{lr}\toprule
+Diagnostic & Value \\
+\midrule
+Bootstrap iterations & 1000 \\
+Full-model MAE & 9.28 pp \\
+Full-model 95\% CI & 8.25--10.37 pp \\
+Scale-only MAE & 14.14 pp \\
+Improvement over scale-only & 4.86 pp \\
+Improvement 95\% CI & 3.60--6.27 pp \\
+Bootstrap Pr(improvement $\leq$ 0) & 0.000 \\
+\bottomrule\end{tabular}}
+\newcommand{\RecipeSensitivityTable}{%
+\begin{tabular}{lr}\toprule
+Diagnostic & Value \\
+\midrule
+Perturbation iterations & 60 \\
+Mean MAE & 10.66 pp \\
+MAE standard deviation & 0.96 pp \\
+5th--95th percentile MAE & 9.20--12.30 pp \\
+Min--max MAE & 8.25--12.75 pp \\
+\bottomrule\end{tabular}}
+\newcommand{\TemporalTable}{%
+\begin{tabular}{rrrrrrr}\toprule
+Cutoff yr & train cells & test cells & test models & MAE & RMSE & bias \\
+\midrule
+2024.75 & 87 & 163 & 28 & 11.95 & 16.40 & 0.55 \\
+2024.95 & 103 & 147 & 26 & 13.67 & 18.21 & -7.57 \\
+2025.08 & 142 & 108 & 21 & 10.30 & 13.92 & -8.37 \\
+2025.25 & 192 & 58 & 15 & 8.33 & 10.92 & -2.46 \\
+\bottomrule\end{tabular}}

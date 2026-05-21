@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Predictable Benchmarks? An Evaluation-Protocol-Adjusted Residual Audit of Public LLM Benchmark Scores"
+message: "If you use this repository, please cite the paper and archived code release."
+type: software
+authors:
+  - family-names: Herranz
+    given-names: Ed
+version: 0.7.3
+date-released: 2026-05-20
+repository-code: "https://github.com/edherranz/llm-benchmark-residual-audit"
+license: MIT

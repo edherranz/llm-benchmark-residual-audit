@@ -1,0 +1,53 @@
+feature,standardized_coefficient,abs_coefficient,feature_group
+math_intensity,0.5395068071315506,0.5395068071315506,training/recipe
+bench_LiveCodeBench,-0.397180704998151,0.397180704998151,benchmark fixed effects
+log_active_params,0.388798755836444,0.388798755836444,scale/capacity
+release_year_norm,0.32081925315342097,0.32081925315342097,training/recipe
+math_intensity_x_outputspace,-0.30854488556900433,0.30854488556900433,recipe x benchmark interactions
+log_context,-0.2996604652072147,0.2996604652072147,architecture/context
+contamination_resistant,-0.2970679673249639,0.2970679673249639,benchmark metadata
+output_space,0.2926393309449304,0.2926393309449304,benchmark metadata
+is_instruct,0.25772764725414676,0.25772764725414676,training/recipe
+bench_GSM8K,0.24622009406240777,0.24622009406240777,benchmark fixed effects
+is_reasoning_model_x_outputspace,-0.24248086931591403,0.24248086931591403,recipe x benchmark interactions
+is_reasoning_model,0.226598630004841,0.226598630004841,training/recipe
+thinking_on_cell,0.22659863000481506,0.22659863000481506,measurement/protocol
+retained_v22,0.20320130094810457,0.20320130094810457,benchmark metadata
+bench_MMLU,0.19755267103275576,0.19755267103275576,benchmark fixed effects
+synthetic_quality_x_outputspace,-0.19541052039828105,0.19541052039828105,recipe x benchmark interactions
+bench_MATH,-0.1855347373999246,0.1855347373999246,benchmark fixed effects
+bench_BBH,0.1668056680630601,0.1668056680630601,benchmark fixed effects
+n_choices,0.16303166114886938,0.16303166114886938,benchmark metadata
+bench_ARC_C,0.16026907775345922,0.16026907775345922,benchmark fixed effects
+bench_AIME_2024,-0.15669854749781728,0.15669854749781728,benchmark fixed effects
+active_x_code,-0.1444342382669653,0.1444342382669653,recipe x benchmark interactions
+is_reasoning_model_x_contres,0.13921103595901366,0.13921103595901366,recipe x benchmark interactions
+log_train_tokens,0.12496575394340523,0.12496575394340523,scale/capacity
+is_gqa,0.1154893197984041,0.1154893197984041,architecture/context
+saturation_2026,0.10546275123406211,0.10546275123406211,benchmark metadata
+log_total_params,0.10016093690936734,0.10016093690936734,scale/capacity
+reasoning_effort_score,-0.09589966950668219,0.09589966950668219,measurement/protocol
+src_simple_evals,0.0899396692301934,0.0899396692301934,measurement/protocol
+is_moe,0.08527627750064434,0.08527627750064434,scale/capacity
+bench_GPQA_Diamond,-0.08219587249308612,0.08219587249308612,benchmark fixed effects
+param_confidence,-0.07332382817178247,0.07332382817178247,scale/capacity
+code_pretrain_x_outputspace,0.06804976659713194,0.06804976659713194,recipe x benchmark interactions
+src_cross_report,-0.06538012023139575,0.06538012023139575,measurement/protocol
+bench_MMLU_Pro,0.05838326242786401,0.05838326242786401,benchmark fixed effects
+scale_imputed,0.05836398768755787,0.05836398768755787,scale/capacity
+bench_IFEval,0.05344090390171938,0.05344090390171938,benchmark fixed effects
+math_intensity_x_contres,0.03822228689615153,0.03822228689615153,recipe x benchmark interactions
+code_pretrain_x_contres,0.038222286896145784,0.038222286896145784,recipe x benchmark interactions
+src_official,0.03527714518228928,0.03527714518228928,measurement/protocol
+source_confidence_weight,0.03501114853915229,0.03501114853915229,measurement/protocol
+bench_HumanEval,-0.03368410562448251,0.03368410562448251,benchmark fixed effects
+bench_MBPP,-0.02574655924775323,0.02574655924775323,benchmark fixed effects
+trained_web_only,0.024904005416532753,0.024904005416532753,training/recipe
+synthetic_quality,0.024584661825857633,0.024584661825857633,training/recipe
+code_pretrain,-0.021007177546343386,0.021007177546343386,training/recipe
+src_leaderboard,-0.011153795736117432,0.011153795736117432,measurement/protocol
+synthetic_quality_x_contres,0.00822014421359401,0.00822014421359401,recipe x benchmark interactions
+active_x_math,-0.0006888259101210594,0.0006888259101210594,recipe x benchmark interactions
+exact_protocol_match_to_primary_suite,0.0,0.0,measurement/protocol
+has_rope,0.0,0.0,architecture/context
+tools_allowed_flag,0.0,0.0,measurement/protocol

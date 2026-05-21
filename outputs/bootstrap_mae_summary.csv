@@ -1,0 +1,2 @@
+iterations,cells,full_mae_point,full_mae_ci_low,full_mae_ci_high,scale_mae_point,scale_mae_ci_low,scale_mae_ci_high,improvement_point,improvement_ci_low,improvement_ci_high,p_improvement_le_zero
+1000,250,9.282451127691752,8.24594002594159,10.372090668019268,14.138556800107127,12.6725291889678,15.605696167259351,4.856105672415374,3.5966974936318734,6.271681562014608,0.0

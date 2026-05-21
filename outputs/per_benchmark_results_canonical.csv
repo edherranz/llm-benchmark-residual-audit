@@ -1,0 +1,13 @@
+benchmark,n,n_families,contamination_resistant,retained_v22,format,source_policy,Scale_mae,Scale_status,Scale+Arch_mae,Scale+Arch_status,Scale+Recipe_mae,Scale+Recipe_status,Full_mae,Full_status,best,recipe_impact_pct
+MMLU,32,12,0,1,MCQ,official_like,4.186123879575876,ok,4.135502383145908,ok,4.423234506542922,ok,2.6521290838036444,ok,Full,-5.664204734215104
+ARC_C,18,9,0,1,MCQ,official_like,8.67864723714251,ok,9.630053780830213,ok,8.591526751725413,ok,8.237029164910922,ok,Full,1.003848676372542
+GSM8K,23,8,0,1,free_form_math,official_like,14.43344746067154,ok,17.091555116011254,ok,12.506789651436709,ok,8.799215853033658,ok,Full,13.348562874424944
+HumanEval,28,11,0,1,free_form_code,official_like,17.587069010235123,ok,18.69530594443433,ok,12.192619125552405,ok,7.792560649089419,ok,Full,30.672819226121863
+MATH,33,12,0,1,free_form_math,official_like,28.96858227197347,ok,29.096521298980242,ok,15.344901131837483,ok,9.455723004960129,ok,Full,47.029160806798025
+MBPP,28,11,0,1,free_form_code,official_like,11.153224886051033,ok,12.373261122321587,ok,9.319368132160244,ok,5.311527017660271,ok,Full,16.44239018424467
+MMLU_Pro,22,9,1,0,MCQ,official_like,9.818333533584712,ok,13.35506831983017,ok,8.796885487397939,ok,10.447715211570364,ok,Scale+Recipe,10.40347674778816
+BBH,7,4,0,0,mixed,official_like,,too_sparse,,too_sparse,,too_sparse,,too_sparse,NA,
+GPQA_Diamond,25,10,1,0,MCQ,official_like,10.260738506107721,ok,10.14355197241008,ok,10.97125140456059,ok,12.085745724939072,ok,Scale+Arch,-6.924578557673359
+AIME_2024,9,5,1,0,free_form_math,official_like,,too_sparse,,too_sparse,,too_sparse,,too_sparse,NA,
+LiveCodeBench,16,7,1,0,free_form_code,official_like,21.041856020250997,ok,20.879487192244063,ok,9.286385474560461,ok,8.990586344438192,ok,Full,55.867080044540245
+IFEval,9,7,0,0,binary_verifiable,official_like,,too_sparse,,too_sparse,,too_sparse,,too_sparse,NA,
