@@ -1,6 +1,6 @@
 # Predictable Benchmarks? Evaluation-Protocol-Adjusted LLM Benchmark Residual Audit
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20319986.svg)](https://doi.org/10.5281/zenodo.20319986)
 
 This repository contains the data, code, figures, and LaTeX source for a publication-ready paper on how much public LLM benchmark scores can be predicted from public model metadata and observable evaluation-protocol covariates.
 
